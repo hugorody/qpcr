@@ -143,7 +143,6 @@ for i in MEANS.items():
 outputQPCR.close()
 
 ######################################################################## BARPLOT
-print (ANOVA)
 N = len(treatments) #number of bars in barplot
 ind = np.arange(N) #the x locations for the bars
 width = 0.35 # the width of the bars
