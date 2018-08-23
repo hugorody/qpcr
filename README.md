@@ -13,5 +13,8 @@ Outputs:
 - calculoqpcr.csv;
 - barplot figure.
 
-Figure:
+
 ![barplot](http://amos.esalq.usp.br/hugo/barplot1.png)
+Figure 1. 
+* in title: p-value < 0.05 (ANOVA)
+Equal letters: differences among treatments were statistically significant by Tukey HSD. 
