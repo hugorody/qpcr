@@ -19,4 +19,4 @@ Figure 1.
 
 \* in title: p-value < 0.05 (ANOVA)
 
-Equal letters: differences among treatments were statistically significant by Tukey HSD. 
+Equal letters: differences among treatments were statistically not significant by Tukey HSD. 
