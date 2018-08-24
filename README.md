@@ -2,7 +2,8 @@
 qPCR statistics
 
 Input: 
-- CSV file. Endogenous must be the first row, and columns are the treatments in 3 replicates. Change the input file name on line 15 (Template: anova_r.csv).
+- CSV file. Endogenous data must be placed in the first row. The first column is the label of each treatment/control. The following columns are the treatment measured values, each with 3 replicates. 
+Change the input file name on line 15 (Template: anova_r.csv).
 
 Statistics:
 - Delta Ct (DCT) calculation by the formula DCTvalue = 2^(endogenous_control - gene_test);
