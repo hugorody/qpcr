@@ -17,9 +17,10 @@ for i in range(1,len(qpcr)):
     sample = qpcr.iloc[i][0]
     sampleDCTs = []
     for jj in range(1,len(qpcr.columns)):
-        endogenous_control = qpcr.iloc[0][jj] #endogenous must be the index 0 of input
+        internal_control = qpcr.iloc[0][jj] #endogenous must be the index 0 of input
         gene_test = qpcr.iloc[i][jj]
-        DCTval = 2 ** (endogenous_control - gene_test) #Delta Ct = Ct gene test – Ct endogenous control
+        #DCTval = 2 ** (internal_control - gene_test) #Delta Ct = Ct gene test – Ct endogenous control
+        DCTval = 2 ** -(gene_test - internal_control)
         sampleDCTs.append(DCTval)
     DCTdict[sample] = sampleDCTs
 
