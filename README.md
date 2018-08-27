@@ -6,7 +6,7 @@ Input:
 Change the input file name on line 15 (Template: anova_r.csv).
 
 Statistics:
-- Delta Ct (DCT) calculation by the formula DCTvalue = 2^(endogenous_control - gene_test);
+- Delta Ct (DCT) calculation by the formula DCTvalue = 2^(internal_control - gene_test);
 - ANOVA;
 - Tukey HSD.
 
